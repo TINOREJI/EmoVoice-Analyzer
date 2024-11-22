@@ -1,0 +1,72 @@
+/* App.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.image-above-file {
+  margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.file-input {
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.loader {
+  margin-top: 20px;
+  /* Add your loader styles here */
+}
+
+/* ResultPage.css */
+.result-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.result-page h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.result {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.emotion-image {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
